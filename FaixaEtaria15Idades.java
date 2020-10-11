@@ -9,7 +9,7 @@ public class FaixaEtaria15Idades {
 		med4 = 0;
 		med5 = 0;
 		for(int i=1; i <=15 ; i++) {
-			System.out.println("Digite a idade da " +i+ "ª pessoa: ");
+			System.out.println("Digite a idade da " +i+ "Âª pessoa: ");
 			idade = leia.nextFloat();
 			
 	        if(idade>=0&&idade<=15){
@@ -34,7 +34,7 @@ public class FaixaEtaria15Idades {
 
 }
 		
-		 System.out.println("A media das pessoas até 15 anos : " +(med1 * 100 / 15));
+	     System.out.println("A media das pessoas atÃ© 15 anos : " +(med1 * 100 / 15));
 	     System.out.println("A media das pessoas entre 16 e 30 anos : " +(+med2 * 100 / 15));
 	     System.out.println("A media das pessoas entre 31 e 45 anos : " +(+med3 * 100 / 15));
 	     System.out.println("A media das pessoas entre 46 e 60 anos : " +(+med4 * 100 / 15));
